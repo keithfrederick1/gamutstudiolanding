@@ -10,21 +10,23 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+              <TitleLogo title='.io' caption='gamutstud' className='logobg' />
               <br />
               <span>
-                Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
+                Questions? Reach out! <br /> Monday – Friday from 9am to 6pm Central Time
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>contact@gamutstud.io</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              <Link href='/contact'>
+                 <button className='button-primary'>Request Quote</button>
+              </Link>
             </div>
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/'>Privacy Policy</Link>
               </li>
               <li>
                 <Link href='/'>Our team</Link>
@@ -54,7 +56,7 @@ const Footer = () => {
                 <Link href='/'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='/'>E-Commerce</Link>
+                <Link href='/'>AI Customer Relations Management</Link>
               </li>
             </ul>
             <ul>
@@ -85,11 +87,9 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2024 GAMUT STUDIO. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
-              <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>
           </div>

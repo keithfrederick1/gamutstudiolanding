@@ -12,22 +12,25 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='creative' caption='7' className='logobg' />
-          <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
-
+          <div className='logo'></div>
+          <TitleLogo title='.io' caption='gamutstud' className='logobg' />
+          <h1 className='hero-title'>THE ULTIMATE GROWTH PARTNER FOR YOUR BUSINESS</h1>
+          <div style={{marginTop: '-30px', marginBottom: '15px'}}>
+          </div>
           <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
             <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
+            <TitleSm title='DIGITAL MARKETING' /><span>.</span>
+            <TitleSm title='REPUTATION MGMT' /> 
           </div>
         </div>
       </section>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
-          </div>
+            <Title title="Generate More $$$" />
+            <p style={{ 'fontSize': '32px'}}>Gamut Studio is a strategic full-service digital agency for companies in need of scalable client acquisition solutions and high converting websites. 
+           </p> </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
               <div className='box' key={i}>
@@ -39,15 +42,11 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <Expertise />
+      <ShowCase />
       <Banner />
       <Testimonial />
-      <ShowCase />
+      <Expertise />
       <Brand />
-
-      <div className='text-center'>
-        <Title title='Latest news & articles' />
-      </div>
       <BlogCard />
     </>
   )

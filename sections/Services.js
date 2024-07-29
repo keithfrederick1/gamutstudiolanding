@@ -15,7 +15,7 @@ const Services = () => {
           </div>
           <div className='grid-2 py'>
             {expertise.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} show={true} />
+               <Card key={item.id} data={item} caption="Read more" show={true} path="/expertise" />
             ))}
           </div>
         </div>

@@ -9,9 +9,9 @@ const ShowCase = () => {
       <section className='showcase bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='SHOWCASE' /> <br />
+            <TitleSm title='BUSINESSES WE SERVE' /> <br />
             <br />
-            <Title title='Fresh ideas. Bold design. Smart realisation.' className='title-bg' />
+            <Title title='Growth solutions. Bold designs. Brilliant realisations.' className='title-bg' />
           </div>
           <br />
           <br />
@@ -19,9 +19,6 @@ const ShowCase = () => {
             {showcase.map((item) => (
               <Card data={item} key={item.id} caption={item.post} />
             ))}
-          </div>
-          <div className='py btn'>
-            <button className='secondary-button'>View More</button>
           </div>
         </div>
       </section>
