@@ -30,17 +30,15 @@ const Header = () => {
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
               Services
             </Link>
-            <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
+            {/* <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
               Showcase
-            </Link>
+            </Link> */}
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               Blog
             </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
-            <Link href='contact'><button className='button-primary'>Booking</button></Link>
-            
           </nav>
           <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
         </div>

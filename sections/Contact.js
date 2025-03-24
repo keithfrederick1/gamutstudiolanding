@@ -51,35 +51,35 @@ const Contact = () => {
               </ul>
             </div>
             <div className='right w-70'>
-              <TitleSm title='Make an online enquiry' />
+              <TitleSm title='Make an online inquiry' />
               <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
 
-              <form>
+              <form action="https://formspree.io/f/xrbpkdnv" method="POST">
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
-                    <input type='text' />
+                    <input type="text" name="name" required />
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' />
+                    <input type="email" name="email" required />
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>your budget</span>
-                    <input type='text' />
+                    <input type="text" name="budget" required/>
                   </div>
                   <div className='inputs'>
                     <span>timeframe</span>
-                    <input type='text' />
+                    <input type='text' required  />
                   </div>
                 </div>
                 <div className='inputs'>
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
                   <textarea cols='30' rows='10'></textarea>
                 </div>
-                <button className='button-primary'>Submit</button>
+                <button type="submit" className='button-primary'>Submit</button>
               </form>
             </div>
           </div>

@@ -1,4 +1,13 @@
 /*  Hero Section */
+@font-face {
+  font-family: 'NeueMetana-Bold';
+  src: url('../assets/NeueMetana-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&display=swap');
+
+
 .hero {
   text-align: center;
   padding: $xl-6 0;
@@ -20,37 +29,63 @@
     overflow-x: hidden !important;
   }
 
-  .hero-title {
-    font-size: $xll-3;
-    line-height: 115px;
-    font-weight: 600;
-    margin: $xl-6 0;
+  .gradient-text {
+    background: linear-gradient(to right, pink, rgb(189, 54, 202));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    font-weight: 500;
   }
+
+  .hero-title {
+    font-size: clamp(4.4rem, 6vw, 6.8rem); /* Adjusted to scale based on viewport width */
+    line-height: clamp(3rem, 10vw, 7.2rem); /* Scales line-height accordingly */
+    font-weight: 400;
+    margin: 3rem 0; /* Adjust margin as needed */
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    padding-bottom: 60px;
+  }
+  
+
+  
   .sub-heading {
     display: flex;
     justify-content: center;
-    .titleSm {
-      margin: 0 $xl-1;
-    }
-    span {
-      font-size: $xll;
-      line-height: 0;
-      color: $green;
-    }
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 3.5rem);
+    max-width: 90vw; /* Ensures it fits within the screen */
+    text-align: center;
+    line-height: clamp(2rem, 5vw, 4rem);
+    flex-wrap: wrap; /* Allows content to break into multiple lines if needed */
+    word-break: break-word; /* Prevents text from overflowing */
+    margin: 0 auto;
+  }
+  .sub-heading .titleSm {
+    font-size: clamp(1rem, 3vw, 3rem);
+    margin: 0 clamp(1rem, 2vw, 2rem); /* Adjust margin responsively */
+  }
+  
+  .sub-heading span {
+    font-size: clamp(3rem, 6vw, 3rem); /* Scales with viewport */
+    line-height: 0; /* Keep line-height consistent */
+    color: #00FF00; /* Replace with actual $green color */
+  ;
   }
 }
 .hero-sec {
+  top: -200px;
   position: relative;
   &::before {
     content: "";
     position: absolute;
-    top: -10%;
+    top: 10%;
     left: 0%;
     width: 100%;
     height: 200px;
     z-index: -1;
     background-color: $dark;
-    filter: blur(20px);
+    filter: blur(40px);
   }
 }
 
@@ -374,4 +409,23 @@ footer {
       flex-direction: column;
     }
   }
+}
+
+// @font-face {
+//   font-family: 'LEDLIGHT';
+//   src: url('/LEDLIGHT.otf') format('truetype');
+// }
+
+.title-logo,
+.titleSm {
+  font-family: 'LEDLIGHT', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+@font-face {
+  font-family: 'Bokis-Oblique';
+  src: url('/Bokis-Oblique.ttf') format('truetype');
+}
+.title {
+  font-family: 'Bokis-Oblique', sans-serif;
+  font-size: 64px;
 }

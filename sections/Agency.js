@@ -49,7 +49,7 @@ const Agency = () => {
             </div>
           </div>
           <div className='content flex1'>
-            <div className='left w-60 py'>
+            {/* <div className='left w-60 py'>
               <TitleSm title='A word from our founder' />
               <p className='desc-p'>My name is Keith Frederick, I'm passionate about merging creativity with technical expertise. Having been in  the tech industry for the past 5 years, and with my background in design and ecommerce, I bring a wealth of experience to every project we undertake. Not only that, but I actually worked in the home improvement industry growing up, so I know a thing or two about what works and what doesn't as far as getting new clients. I've been helping business owners in this area since I was a child, so that coupled with tech is a unique advantage that, if YOU utilize correctly, can generate revenue in your sleep - literally! My journey has been marked by a committment to delivering innovative solutions, whether in website design, development, paid ads, branding or re-branding initiatives.</p>
               <div className='grid-3'>
@@ -66,10 +66,10 @@ const Agency = () => {
                   <h3>Satisfaction guaranteed. If service doesn't meet expectations, it's FREE! Our business is growing Your business.</h3>
                 </div>
               </div>
-            </div>
-            <div className='right w-30 ml'>
+            </div> */}
+            {/* <div className='right w-30 ml'>
               <img src='/images/IMG_4347.png' alt='Img' className='round' width='100%' height='100%' />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

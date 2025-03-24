@@ -13,9 +13,6 @@ const contact = () => {
       </Head>
       <Container>
       <CssBaseline />
-      <Typography variant="h4" gutterBottom>
-        Schedule a Call
-      </Typography>
       <Calendar />
     </Container>
       <Contact />

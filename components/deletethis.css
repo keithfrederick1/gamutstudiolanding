@@ -1,0 +1,189 @@
+body > family-assets-chat > *{
+    border-radius: 0px;
+}
+
+#react-root > div.teaser-shared{
+   border-radius: 0px;
+}
+
+#react-root > div.chat > *{
+  border-radius: 0px;
+}
+
+.first-message > *{
+border-radius: 0px;
+}
+
+.first-message > * > *{
+border-radius: 0px;
+}
+
+.first-message > * > * > *{
+border-radius: 0px;
+}
+
+.first-message button{
+border-radius: 0px;
+}
+
+.last-message button{
+border-radius: 0px
+}
+
+.first-message div{
+border-radius: 0px;
+}
+
+.last-message div{
+border-radius: 0px
+}
+
+.flex > * > *{
+border-radius: 0px !important;
+}
+
+.flex > * > * > *{
+border-radius: 0px !important;
+}
+
+.open > * {
+border-radius: 0px !important;
+}
+
+.long{
+border-radius: 0px !important; 
+}
+
+.long > * > *{
+border-radius: 0px !important;
+}
+
+#react-root div.header.focus-bg.circle div.logo{
+border-radius: 0px !important; 
+}
+
+#react-root > * > * > *{
+border-radius: 0px !important;
+}
+
+.full-teaser.open > * > * > *{
+border-radius: 0px !important; 
+}
+
+div.logo{
+border-radius: 0px !important;
+}
+
+.full-teaser .header .logo::after{
+display: none;
+}
+
+#react-root div.top-block div.top-line img{
+display: none;
+}
+
+.jHkiDh::after{
+display: none !important;
+}
+
+/*
+#react-root div.top-block{
+text-align: center;
+}
+*/
+
+#react-root div.top-block div.right-side{
+display: none;
+}
+
+/*
+#react-root div.top-block div.left-side{
+align-items: center;
+}
+*/
+
+div.stfb-tour-button{
+background-color: rgb(44, 61, 68) !important;
+color: white !important; 
+border-radius: 0px !important;
+}
+
+div.content.teaser div.stfb-colorful-wrapper.fadein div.stfb-tour-button svg g path:nth-child(2){
+fill: white !important;
+}
+
+div.stfb-small-tour-button{
+background-color: rgb(57, 63, 81) !important;
+color: white !important; 
+border-radius: 0px !important;
+}
+
+div.content.teaser div.stfb-small-colorful-wrapper.fadein div.stfb-small-tour-button svg g path:nth-child(2){
+fill: white !important;
+}
+
+.last-message .stfb-colorful-wrapper{
+margin-right: 0px !important;
+width: 100%;
+}
+
+/*All CSS below are for ticket #11305*/
+
+/* Remove initial VSA message */
+
+.teaser-v1 .content .message-no-cloud {
+display: none !important;
+}
+
+/* Change alignment of top-box text to left */
+
+#react-root div.top-block{
+text-align: left;
+}
+
+/* Design changes to header */
+
+.teaser-v1 .header, .stfb-small-colorful-wrapper .top-block .top-line, .stfb-colorful-wrapper .top-block .left-side .header {
+font-family: "PT Serif", Georgia, Times, "Times New Roman", serif !important;
+font-style: italic !important;
+font-weight: 500 !important;
+}
+
+
+/* Remove background on SAT box wrapper */
+.stfb-colorful-wrapper.fadein, .stfb-small-colorful-wrapper.fadein {
+background-color: transparent !important;
+}
+
+/* Change the color of the top block paragraph*/
+.stfb-colorful-wrapper .top-block .left-side .paragraph {
+color: #222222 !important;
+}
+
+
+/* SAT button changes */
+div.stfb-tour-button {
+text-transform: uppercase;
+font-style: italic;
+}
+
+/* All button changes - italicize font */
+
+
+.full-teaser .content .button, .stfb-small-colorful-wrapper .stfb-small-tour-button, .RFlQl.last-message .Answer-sc-15k8xzh-0, .dDzBlV, .iLuyOv, .fCtLln.last-message .Answer-sc-15k8xzh-0, .bwTZno, .hUngjo  {
+font-style: italic !important;
+}
+
+.stfb-small-colorful-wrapper .top-block .bottom-line {
+color: #222222;
+}
+
+
+/*Change the fill of the SAT SVG to white*/
+#react-root > div.Chat__ControlBar-sc-1o7pdtx-1 > div.chat > div > div.ChatContent__StyledScrollArea-sc-1bgrpup-4 > div.BotMessage__MessageWrapper-sc-16sg9x2-4> div.BotMessage__ActionsContainer-sc-16sg9x2-3 > div > div.stfb-tour-button > svg {
+fill: #ffffff !important;
+}
+
+#popover > div > div.right-column.column > button:nth-child(2){
+background-color: #393f51;
+}

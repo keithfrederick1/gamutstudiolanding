@@ -7,7 +7,7 @@ import { TitleSm } from "@/components/common/Title"
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "8 years of experience",
+    title: "Combined 15 years of experience in tech",
   },
   {
     icon: <TfiRulerPencil size={25} />,
@@ -15,11 +15,11 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "60+ successful cases",
+    title: "Automation clients typically see around 20% savings on labor costs after 3 months",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Trial options available",
+    title: "Personalized consultaion for your automation needs",
   },
 ]
 export const expertise = [
@@ -48,19 +48,43 @@ export const expertise = [
     // desc: [{ text: "Visual identity" }, { text: "Review Monitoring and Response: Automatically track and respond to customer reviews across multiple platforms, ensuring timely and professional engagement to maintain a positive online reputation." }, { text: "Custom illustrations" }],
   },
 ]
+
+export const packages = [
+  { id: 1,
+    name: 'Standard',
+    price: "$997/mo", 
+    features: ["Conversational AI", "Reputation Management", "Database Reactivation"]
+  },
+  { id: 2,
+    name: 'Plus',
+    price: "$1997/mo", 
+    features: ["Everything included in Standard package", "Lead automation", "Website maintainance"]
+   },
+   {id: 3,
+    name: 'Premium',
+    price: "$2997/mo", 
+    features: ["Everything included in Plus package", "Custom website", "Unlimited revisions", "Web hosting"]
+   },
+   {id: 4,
+    name: 'Enterprise',
+    price: "Contact", 
+    features: ["Premium package", "Multiple locations"]
+   }
+]
+
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Vantry",
+    name: "Jose L. Villeda",
     cover: "../images/e1.jpg",
-    post: "Vantry Construction Group",
-    desc: "Gamut Studio really turned my contracting business around! The new website they made looks great and works even better. We're getting way more calls now, thanks to their SEO. And their chatbots make sure we never miss a potential customer. If you're a contractor looking to grow your business, Gamut Studio is the way to go.",
+    post: "JLV Construction",
+    desc: "Gamut Studio really helped bring in some new clients. The database reactivation Keith did brought back some old customers and his help with the reputation management for better quality reviews made a pretty big impact after a few months. We're getting way more calls now, I couldn't speak higher of 'em.",
   },
   {
     id: 2,
-    name: "Brian Lemarre",
+    name: "Jeff Raybon",
     cover: "../images/e2.jpg",
-    post: "Seven Arts Renovations",
+    post: "Raybon Construction",
     desc: "I needed a website to show off my remodeling work and get new clients. Gamut Studio did an amazing job. The website is beautiful and easy to use. Plus, their booking system saves me a ton of time. My business is doing great now, all thanks to Gamut Studio!",
   },
   {
@@ -82,31 +106,31 @@ export const showcase = [
   {
     id: 1,
     title: "Customer Centric",
-    cover: "../images/s3.jpg",
+    cover: "../images/s4.jpg",
     catgeory: "DIGITAL MARKETING",
   },
   {
     id: 2,
     title: "Growth Focused",
     catgeory: "GRAPHIC DESIGN",
-    cover: "../images/land.jpg",
+    cover: "../images/e4.jpg",
   },
   {
     id: 3,
-    title: "Flooring",
-    cover: "../images/floor.jpg",
+    title: "SEO",
+    cover: "../images/e1.jpg",
     catgeory: "WEBSITES AND LANDING PAGES",
   },
   {
     id: 4,
     title: "Data Driven",
-    cover: "../images/bathroom.jpeg",
+    cover: "../images/e2.jpg",
     catgeory: "BRANDING",
   },
   {
     id: 5,
     title: "Lead Nurturing",
-    cover: "../images/iron.jpg",
+    cover: "../images/e3.jpg",
     catgeory: "DIGITAL MARKETING",
   },
   {
